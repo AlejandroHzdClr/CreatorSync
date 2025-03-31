@@ -1,0 +1,55 @@
+body{
+    background-color: #838383;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 97vw;
+    gap: 10px;
+}
+
+#opciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33vw;
+    height: 70vh;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos fluyan hacia abajo */
+    align-items: center; /* Centra los elementos si es necesario */
+    width: 100%; /* Se ajusta al ancho disponible */
+    overflow-y: auto; /* Permite el scroll si es necesario */
+    max-height: 85vh; /* Evita que crezca más allá del viewport */
+    padding-top: 0; /* Asegura que no haya espacio extra arriba */
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.card {
+    width: 18rem; /* Mantiene el tamaño de las tarjetas */
+    margin-bottom: 10px; /* Espacio entre tarjetas */
+}
+
+
+#crear{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 33vw;
+    height: 70vh;
+}
+html {
+    scroll-behavior: smooth;
+}

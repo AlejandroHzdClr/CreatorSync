@@ -1,0 +1,81 @@
+#foto_perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2vw;
+/*    border: 2px solid #000; */
+    width: 29vw;
+    height: 20vw;
+    gap: 1vw;
+    margin-top: 5vh;
+}
+
+#edicion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+/*    border: 2px solid #000; */
+    width: 25vw;
+    font-size: 1.4vw;
+    background-color: wheat;
+    border-radius: 30px;
+}
+
+.foto{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+.editar{
+    width: 3vw;
+    height: 3vw;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: 5vh;
+}
+
+#datos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: wheat;
+    width: 50vw;
+}
+
+#nombre h1{
+    font-size: 3vw;
+}
+
+#nombre h2{
+    font-size: 1.2vw;
+    color: rgb(53, 53, 53);
+}
+
+#biografia{
+    
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: wheat;
+    width: 50vw;
+    height: auto;
+    border-radius: 30px;
+}

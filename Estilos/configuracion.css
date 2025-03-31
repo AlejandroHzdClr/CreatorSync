@@ -1,0 +1,173 @@
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 70vh;
+}
+
+.perfil-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.perfil-container h1 {
+    color: #333;
+}
+.perfil-container label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+.perfil-container input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+/* Estilo para el botón de subir imagen */
+.file-input-container {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+}
+.file-input-container input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.file-input-label {
+    display: block;
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+.file-input-label:hover {
+    background: #0056b3;
+}
+/* Vista previa de la imagen */
+.perfil-container img {
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 3px solid #007BFF;
+    max-width: 120px;
+    height: 120px;
+    display: none;
+    object-fit: cover;
+}
+.perfil-container input[type="submit"] {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.perfil-container input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.seguridad-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.seguridad-container h1 {
+    color: #333;
+}
+.seguridad-container label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.seguridad-container input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.seguridad-container input[type="submit"] {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.seguridad-container input[type="submit"]:hover {
+    background: #a71d2a;
+}
+
+.notificaciones-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.notificaciones-container h1 {
+    color: #333;
+}
+.notificaciones-container .form-switch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.notificaciones-container .form-check-input {
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+}
+.notificaciones-container input[type="submit"] {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.notificaciones-container input[type="submit"]:hover {
+    background: #218838;
+}
